@@ -1,7 +1,7 @@
 def counting_sort(arr):
-    max_val = max(arr)
-    m = max_val + 1
-    count = [0] * m
+    max_val = max(arr) # encontra o valor máximo deste array
+    m = max_val + 1 # m recebe o valor máximo + 1
+    count = [0] * m 
 
     for a in arr:
         count[a] += 1
