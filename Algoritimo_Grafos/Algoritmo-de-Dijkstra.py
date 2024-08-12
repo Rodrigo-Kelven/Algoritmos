@@ -19,6 +19,11 @@ def dijkstra(grafo, inicio):
 
     return distancias
 
+"""
+mas qual é a ideia principal deste algoritimo? 
+Este algotimo mede os pesos dos SEGMENTOS, segmentos estes que será os pssivel caminhos percorridos
+"""
+
 # Exemplo de uso:
 grafo = {
     'A': {'B': 5, 'C': 3},
